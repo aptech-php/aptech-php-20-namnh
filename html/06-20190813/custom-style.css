@@ -1,0 +1,18 @@
+.Content__Row__Column__Logo--size {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.Content__Row__Column__Logo--background-color {
+  background-color: purple;
+}
+
+.Content__Row__Column__Logo__Text--white {
+  color: #fff;
+}
+
+.Content__Row__Column__Button--border-radius {
+  border-radius: 10px;
+}
+/*# sourceMappingURL=custom-style.css.map */
