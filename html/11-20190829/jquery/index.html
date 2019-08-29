@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <h1>Hello World</h1>
+  <p>PHP 20</p>
+  <button onclick="anH1();">click to hide h1</button>
+  <script>
+    $(document).ready(function () {
+      function anH1() {
+        // document.getElementById.style.display = 'none'
+        $('h1').hide();
+      }
+      $('p').click(function () {
+        console.log('ok, the p da duoc click');
+        $('p').style.color = 'blue';
+      });
+    });
+  </script>
+</body>
+
+</html>

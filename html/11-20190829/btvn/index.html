@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+  <img id="bong-den" src="./pic_bulboff.gif" alt="">
+  <button onclick="batTat();">Bat/Tat</button>
+  <script>
+    function batTat() {
+      var a = document.getElementById('bong-den');
+      console.log(a.src);
+      if (a.src.includes('bulboff')) {
+        a.src = 'pic_bulbon.gif';
+      } else {
+        a.src = 'pic_bulboff.gif';
+      }
+    }
+  </script>
+</body>
+
+</html>
