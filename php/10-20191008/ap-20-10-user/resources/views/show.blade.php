@@ -1,0 +1,1 @@
+<h1>Ten cua nguoi dung nay la : {{$user->name}}</h1>
